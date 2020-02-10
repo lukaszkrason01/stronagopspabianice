@@ -41,14 +41,14 @@ function changeContrast(){
 	  // use the native .trim() if it exists
 	  //   otherwise use a regular expression  
 	htmlstring = (htmlstring.trim) ? htmlstring.trim() : htmlstring.replace(/^\s+/,'');
-	if(htmlstring == 'Powiększ kontrast') {
+	if(htmlstring == 'Kontrast') {
 		newlink.setAttribute("href", "assets/css/morecontrast.css");
 		element.innerHTML="Normalny kontrast";
 	}
 	
 	else{
 		newlink.setAttribute("href", "assets/css/lesscontrast.css");
-		element.innerHTML='Powiększ kontrast';
+		element.innerHTML='Kontrast';
 	}
 	
 	document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
