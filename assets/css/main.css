@@ -1,0 +1,313 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, iframe{
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+
+/* Testing */
+div{
+	/*border: solid 1px; */
+	padding: 0.5rem;
+}
+
+
+	html {
+		font-size: 16pt;
+	}
+
+		@media screen and (max-width: 1680px) {
+
+			html {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			html {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			html {
+				font-size: 10pt;
+			}
+
+		}
+		
+		body, input, select, textarea {
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 1.65;
+	}
+	
+		h1, h2, h3, h4, h5, h6 {
+		
+		font-weight: 600;
+		line-height: 1.5;
+		}
+		
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+	h1 {
+		font-size: 2.25rem;
+		line-height: 1.3;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		line-height: 1.4;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	h4 {
+		font-size: 0.8rem;
+	}
+
+	h5 {
+		font-size: 0.7rem;
+	}
+
+	h6 {
+		font-size: 0.6rem;
+	}
+	
+		@media screen and (max-width: 736px) {
+
+		h1 {
+			font-size: 1.75rem;
+			line-height: 1.4;
+		}
+
+		h2 {
+			font-size: 1.25em;
+			line-height: 1.5;
+		}
+		}
+	
+body{
+	padding-top:28px;
+}
+
+#wrapper{
+	margin: 3rem 2rem;
+	z-index : 3;
+	position:relative;	
+	    background-color: white;
+}
+
+#bg{
+	position:fixed;
+	background-color : #d6fff173;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100vh;
+	z-index: 1;
+}
+#options
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:999;
+	text-align:center;
+	background:green;
+	color:#fff;
+	padding:10px;
+}
+#options span{
+	padding:0px 10px ;
+}
+
+
+#fonta{
+	font-size:12px;
+}
+
+#fontaa{
+	font-size:14px;
+}
+#fontaaa{
+	font-size:16px;
+}
+
+
+
+#header{
+	display:flex;
+}
+
+@media screen and (max-width: 1050px) {
+	#header{
+	display:inline-block;
+	width: 100%;
+	}
+	
+	#navheader{
+	    display: contents;
+	}
+}
+
+
+#navheader{
+	margin:auto;
+	margin-right: 2%;
+}
+
+#navheader li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding:  8px 16px;
+  text-decoration: none;
+}
+
+
+#hello{
+	text-align:center;
+}
+
+#hello h1{
+	width: auto;
+    margin: auto;
+}
+
+#hello img{
+	max-width: 100%;
+}
+#main{
+	display:flex;
+}
+
+.bar{
+    width: 35px;
+    height: 5px;
+
+    margin-top: 6px;
+	padding: 0;
+}
+
+
+
+@media screen and (min-width: 700px) {
+	#menubutton{
+		display:none;
+	}
+		
+}
+
+@media screen and (max-width: 700px) {
+	#main{
+		display:block;
+	}
+}
+#menubutton{
+	width: 35px;
+    text-align: center;
+    padding: 0;
+}
+
+#menubutton span{
+	font-size:12px;
+	text-align:center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+	
+}
+
+#leftnav{
+	width:max-content;
+}
+
+#leftnav ul{
+	background-color: #f7f7f7;
+    border: solid 1px #8c8c8c;
+}
+#leftnav li{
+	width: max-content;
+	border: solid 1px #d8d8d8;
+}
+
+#footer{
+	text-align: center;
+	    letter-spacing: 0.2rem;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+	background:green;
+	color:#fff;
+}
