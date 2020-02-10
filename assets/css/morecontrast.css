@@ -12,14 +12,19 @@ section, summary, time, mark, audio, video a,a:visited{
 	background:black;
 	color:yellow;
 	}
-nav li a:hover {
-  background-color: blue;
+	
+#options{
+	background-color:black;
+	
 }
-
-a:hover{
-	background:blue;
+a:hover {
+  background-color: blue;
 }
 
 .bar{
 	    background-color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: yellow;
 }

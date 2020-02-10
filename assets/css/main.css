@@ -104,7 +104,6 @@ div{
 		font-weight: 600;
 		line-height: 1.5;
 		padding-bottom:1rem;
-		color: crimson;
 		}
 		
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -115,12 +114,7 @@ div{
 		font-size: 2.25rem;
 		line-height: 1.3;
 	}
-a::after { 
-content: attr(alt);
-}
-img::after {
-  content: attr(alt);
-}
+
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
@@ -159,6 +153,15 @@ body{
 	padding-top:28px;
 }
 
+a , a:visited{
+	text-decoration: none;
+}
+
+a {
+	display: inline-flex;
+}
+
+
 article{
 	padding-bottom:1rem;
 }
@@ -191,7 +194,6 @@ article{
 	width:100%;
 	z-index:999;
 	text-align:center;
-	background:green;
 	color:#fff;
 	padding:10px;
 }
@@ -260,8 +262,13 @@ nav li a {
 }
 #main{
 	display:flex;
+	flex-direction: row-reverse;
 }
 
+
+#menu{
+	float:right;
+}
 .bar{
     width: 35px;
     height: 5px;
@@ -283,11 +290,17 @@ nav li a {
 	#main{
 		display:block;
 	}
+	article:first-child
+{
+	padding-top: 4rem;
+}
 }
 #menubutton{
 	width: 35px;
     text-align: center;
     padding: 0;
+	margin-right: 0px;
+    margin-left: auto;
 }
 
 #menubutton span{
@@ -313,9 +326,10 @@ nav li a {
     border: solid 1px #8c8c8c;
 }
 #leftnav li{
-	width: max-content;
 	border: solid 1px #d8d8d8;
 }
+
+
 
 #footer{
 	text-align: center;
