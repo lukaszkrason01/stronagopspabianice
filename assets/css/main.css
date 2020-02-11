@@ -20,6 +20,7 @@ footer, header, hgroup, menu, nav, section, iframe{
 
 body {
 	line-height: 1;
+	padding-top: 50px;
 }
 
 ol, ul {
@@ -149,9 +150,7 @@ div{
 		}
 		}
 	
-body{
-	padding-top:28px;
-}
+
 
 a , a:visited{
 	text-decoration: none;
@@ -175,7 +174,7 @@ article{
 
 #bg{
 	position:fixed;
-	background-color : #d6fff173;
+	background-color : #8cc63f;
 	top : 0;
 	left : 0;
 	width : 100%;
@@ -201,6 +200,9 @@ article{
 	padding:0px 10px ;
 }
 
+#language{
+	position: absolute;
+}
 
 #fonta{
 	font-size:12px;
@@ -214,14 +216,15 @@ article{
 }
 
 
-
+.col{
+	display:inline-block;
+}
 #header{
 	display:flex;
 }
 
 @media screen and (max-width: 1050px) {
 	#header{
-	display:inline-block;
 	width: 100%;
 	}
 	
@@ -239,6 +242,25 @@ article{
 #navheader li {
   float: left;
 }
+
+#search{
+	margin: auto;
+    margin-right: 10px;
+}
+
+#search input[type=text] {
+  padding: 6px;
+}
+#search button{
+  float: right;
+  padding: 0.86rem;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+}
+#search button:hover {
+  background: #ccc;
+ }
 
 nav li a {
   display: block;
@@ -283,18 +305,36 @@ nav li a {
 	#menubutton{
 		display:none;
 	}
+	#language{
+    right: 3rem;
+}
 		
 }
 
+@media screen and (min-width: 1150px){
+	#wrapper{
+		max-width: 1050px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 @media screen and (max-width: 700px) {
 	#main{
 		display:block;
 	}
-	article:first-child
-{
-	padding-top: 4rem;
+	article:first-child{	
+		padding-top: 4rem;
+	}
+	#wrapper{
+		margin:auto;
+	}
+	#language{
+    right: 1rem;
 }
+	
 }
+
+
 #menubutton{
 	width: 35px;
     text-align: center;

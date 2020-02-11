@@ -10,43 +10,52 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="options">
-				<span> 
-					Rozmiar czcionki
-					<a id="fonta" href="#" title="Czciona standardowa">A</a>
-					<a id="fontaa" href="#" title="Czcionka powiększona" >A+</a>
-					<a id="fontaaa" href="#" title="Duża czcionka">A++</a>
-				</span>				
-				<span>
-					<a id="contrast" href="#" >Wersja czarno-żółta</a>
-				</span>
-				<span>
-					<a id="showborder" href="#" >Zaznacz linki</a>
-				</span>
+				<div class="col">
+					<span> 
+						Rozmiar czcionki
+						<a id="fonta" href="#" title="Czciona standardowa">A</a>
+						<a id="fontaa" href="#" title="Czcionka powiększona" >A+</a>
+						<a id="fontaaa" href="#" title="Duża czcionka">A++</a>
+					</span>				
+					<span>
+						<a id="contrast" href="#" >Wersja czarno-żółta</a>
+					</span>
+					<span>
+						<a id="showborder" href="#" >Zaznacz linki</a>
+					</span>
+				</div>
+				<div id="language" class="col">
+						<a href="#"> <img src ="assets/images/fuk.png"/>  </a>
+						<a href="#"> <img src = "assets/images/fpol.png"/> </a>
+				</div>
 			</div>
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo" id="logo">
-						<a href= "#">
-							<img src="assets/images/logo.png">  </img>
-							 </a>
+						<div class="col">
+							<div class="logo" id="logo" class="col">
+							<a href= "#">
+								<img src="assets/images/logo.png">  </img>
+								 </a>
+							</div>
 						</div>
-						<nav id="navheader">
-							<ul>
-								<li><a href="#">Lorem ipsum</a></li>
-								<li><a href="#">Lorem ipsum</a></li>
-								<li><a href="#">Lorem ipsum</a></li>
-								<li><a href="#">Lorem ipsum</a></li>
-							</ul>
-						</nav>
-
+						
+						<div id="search" class="col">
+							<div class="col">
+							      <input type="text" placeholder="Wyszukaj.." name="search">
+								  <button type="submit"><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+						
 					</header>
 					
 					<div id="hello">
