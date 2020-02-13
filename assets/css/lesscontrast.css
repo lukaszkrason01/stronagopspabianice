@@ -6,6 +6,9 @@ a , a:visited{
 	background: #efefef;
 }
 
+#optionscontrast li{
+	border-color:white!important;
+}
 
 nav li a:hover {
   background-color: #c1e690;
