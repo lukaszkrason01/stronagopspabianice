@@ -1,6 +1,6 @@
 div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
+pre, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -17,8 +17,19 @@ section, summary, time, mark, audio, video a,a:visited{
 	background-color:black;
 	
 }
+#optionscontrast li{
+	border-color:white;
+}
+#wrapper{
+	border-color:black!important;
+}
+
+#wstazkaend{
+	background-color: yellow;
+}
 a:hover {
-  background-color: blue;
+      background-color: blue;
+    border-radius: 40%;
 }
 
 .bar{

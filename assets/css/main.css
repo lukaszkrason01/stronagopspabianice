@@ -170,8 +170,8 @@ article{
 	position:relative;	
 	background-color: white;
 	border-radius: 1rem;
-    border: solid 1rem white;
-    box-shadow: 14px 14px #c1e690;
+    border: solid 1rem white;;
+    box-shadow: 0 0 0px 7px #c1e690;
 }
 
 #bg{
@@ -226,21 +226,31 @@ article{
 	border-radius: 100%;
 }
 
+#licontr1{
+	background-color:white;
+}
+
 #licontr2{
     background-color: black;
 }
 
-#contrast2{
-	color:yellow;
-}
 
 #licontr3{
     background-color: black;
 }
 
+#contrast1{
+	color:black;
+	
+}
+
+#contrast2{
+	color:yellow;
+}
 #contrast3{
 	color:white;
 }
+
 .fontsize{
 	 font-style: italic;
 	 font-weight: 700;
@@ -271,16 +281,10 @@ article{
 	#header{
 	width: 100%;
 	}
-	
-	#navheader{
-	    display: contents;
-	}
 }
-
 
 #navheader{
 	margin:auto;
-	margin-right: 2%;
 }
 
 #navheader li {
@@ -288,7 +292,6 @@ article{
 }
 
 #search{
-	margin: 5rem 10px auto auto;
 	display:flex;
 }
 
@@ -331,8 +334,27 @@ nav li a {
 	flex-direction: row-reverse;
 }
 
+#wstazka{
+	width: 108%;
+    margin-left: -4%;
+}
+#wstazkamiddle{
+	padding:1rem;
+	display: flex;
+}
+#wstazkaend{
+    height: 0;
+    background-image: url(../../assets/images/wstazka.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 3%;
+}
 
+#searchnav{
+	float:right;	
+}
 #menu{
+	margin-top:20px;
 	float:right;
 }
 .bar{
@@ -406,7 +428,8 @@ nav li a {
     border: solid 1px #8c8c8c;
 }
 #leftnav li{
-	border: solid 1px #d8d8d8;
+	border: solid 1px #8cc63f;
+	
 }
 
 

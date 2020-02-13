@@ -6,8 +6,9 @@ a , a:visited{
 	background: #efefef;
 }
 
+
 nav li a:hover {
-  background-color: #dddddd;
+  background-color: #c1e690;
 }
 
 #footer a{
@@ -26,4 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #search input[type=text]{
 	border: solid 2px #8cc63f;
+}
+#wstazkamiddle{
+    background: #8cc63f;
 }
