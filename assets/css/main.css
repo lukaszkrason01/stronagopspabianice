@@ -165,7 +165,7 @@ article{
 }
 
 #wrapper{
-	margin: 1rem 2rem;
+	margin: 1rem 4rem;
 	z-index : 3;
 	position:relative;	
 	background-color: white;
@@ -291,8 +291,14 @@ article{
 	margin:auto;
 }
 
+#navheader ul{
+	text-align:center;
+}
+
 #navheader li {
-  float: left;
+	border: solid 1px #c1e690;
+    display: inline-block;
+	margin-top: 4px;
 }
 
 #search{
@@ -338,22 +344,30 @@ nav li a {
 	flex-direction: row-reverse;
 }
 
-#wstazka{
-	width: 108%;
-    margin-left: -4%;
-}
+
 #wstazkamiddle{
-	padding:1rem;
-	display: flex;
-}
-#wstazkaend{
-    height: 0;
-    background-image: url(../../assets/images/wstazka.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 3%;
+	padding: 1rem;
+    display: flex;
+	border-radius: 1rem 1rem 0 0;
 }
 
+#wstazkaend{
+	display: flex;
+}
+
+#wstazkaend div{
+    width: 2rem;
+    height: 2rem;
+}
+#wstazkaendleft{	
+    background: linear-gradient(45deg, rgba(0,0,0,0) 50%, #cacaca 50%);
+	margin-right: auto;
+    margin-left: 0;
+}
+
+#wstazkaendright{
+	background: linear-gradient(315deg, rgba(0,0,0,0) 50%, #cacaca 50%);
+}
 #searchnav{
 	float:right;	
 }
@@ -375,11 +389,15 @@ nav li a {
 	#menubutton{
 		display:none;
 	}
+	#wstazka{
+	width: 108%;
+    margin-left: -4%;
+	}
 }
 
 @media screen and (min-width: 1150px){
 	#wrapper{
-		max-width: 1050px;
+		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 	}

@@ -11,7 +11,9 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video a,a:visited{
 	background:black;
 	color:yellow;
-	}
+}
+
+
 	
 #options{
 	background-color:black;
