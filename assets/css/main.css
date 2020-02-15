@@ -192,10 +192,10 @@ article{
 }
 
 #showlinks{
-	margin: 0 auto;
 }
 #optionscontent{
 	margin-left:auto;
+	display: flex;
 }
 #options{
 	text-align:center;
@@ -203,17 +203,22 @@ article{
 
 #options span{
 	padding:0px 10px ;
+	font-weight: 600;
+    font-size: 108%;
 }
 
 #language{
 	text-align:end;
+	margin-left: 2rem;
+}
+
+#fontoptions{
+	display: inline-block;
 }
 
 #options ul{
 	display: flex;
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
 }
 #options li
 {
@@ -311,14 +316,9 @@ article{
 #search button{
   float: right;
   padding: 0.86rem;
-  background: #ddd;
   border: none;
   cursor: pointer;
 }
-#search button:hover {
-  background: #ccc;
- }
-
 nav li a {
   display: block;
   text-align: center;
@@ -360,14 +360,10 @@ nav li a {
     height: 2rem;
 }
 #wstazkaendleft{	
-    background: linear-gradient(45deg, rgba(0,0,0,0) 50%, #cacaca 50%);
 	margin-right: auto;
     margin-left: 0;
 }
 
-#wstazkaendright{
-	background: linear-gradient(315deg, rgba(0,0,0,0) 50%, #cacaca 50%);
-}
 #searchnav{
 	float:right;	
 }
@@ -451,14 +447,10 @@ nav li a {
 	
 }
 
-
-
 #footer{
 	text-align: center;
 	    letter-spacing: 0.2rem;
     font-size: 0.6rem;
     margin-bottom: 0;
     text-transform: uppercase;
-	background:#8cc63feb;
-	color:#fff;
 }

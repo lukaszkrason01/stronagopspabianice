@@ -6,16 +6,8 @@ a , a:visited{
 	background: #efefef;
 }
 
-#optionscontrast li{
-	border-color:white!important;
-}
-
 nav li a:hover {
   background-color: #c1e690;
-}
-
-#footer a{
-	color: #fff;
 }
 
 
@@ -35,3 +27,21 @@ h1, h2, h3, h4, h5, h6 {
     background: #8cc63f;
 
 }
+#wstazkaendleft{	
+    background: linear-gradient(45deg, rgba(0,0,0,0) 50%, #cacaca 50%);
+}
+
+#wstazkaendright{
+	background: linear-gradient(315deg, rgba(0,0,0,0) 50%, #cacaca 50%);
+}
+
+#footer{
+	background:#8cc63f;
+}
+
+#search button{
+  background: #ddd;
+}
+#search button:hover {
+  background: #ccc;
+ }
