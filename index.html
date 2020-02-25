@@ -37,7 +37,7 @@
 									</span>
 								</div>
 								<div id="fontoptions">
-									<ul> 
+									<ul id="font"> 
 										<li>
 											<a id="fonta" class="fontsize" href="#" title="Czciona standardowa">A</a>
 										</li>
@@ -63,7 +63,10 @@
 								</div>
 		
 							</div>	
-							<div id="language">
+							
+						</div>
+
+													<div id="language">
 								<ul>
 									<li>
 										<a href="#"> <img src = "assets/images/fpol.png"/> </a>
@@ -71,13 +74,8 @@
 									<li>
 										<a href="#"> <img src ="assets/images/fuk.png"/>  </a>
 									</li>
-								</ul>
-								
-								
-							</div>								
-						</div>
-
-						
+								</ul>					
+							</div>	
 	
 					</header>
 					
@@ -110,10 +108,7 @@
 				<!-- Main -->
 					<div id="main">
 						<div id="searchnav">
-							<div id="search">
-								<input type="text" placeholder="Wyszukaj.." name="search">
-								<button type="submit"><i class="fa fa-search"></i></button>
-							</div>	
+
 							<div id="menu">
 								<div id="menubutton"> 
 									<div class="bar"> </div>
@@ -122,6 +117,10 @@
 									<span> MENU </span>
 								</div>
 								<nav id="leftnav">
+									<div id="search">
+										<input type="text" placeholder="Wyszukaj.." name="search">
+										<button type="submit"><i class="fa fa-search"></i></button>
+									</div>	
 								<ul>
 								  <li><a href="#">Lorem ipsum info 1</a></li>
 								  <li><a href="#">Lorem ipsum info 2</a></li>
@@ -163,15 +162,28 @@
 						</div>
 					</div>
 				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; 2020 Gminny Ośrodek Pomocy Społecznej w Pabianicach </p>
-						<p>Design <a target="_blank" rel="noopener noreferrer" href="http://moonrise.com.pl"> moonrise IT</a>. </p>
+				<footer id="footer">
+						<div id="topfoot">
+							<div id="infofoot">
+								<p><strong>Gminny Ośrodek Pomocy Społecznej </strong></p>
+								<p>w Gminie Pabianice</p>
+								<p>Adres: 95-200 Pabianice ul. Łaska 3/5</p>
+								<p>tel. kom. 668 374 148</p>
+								<p>e-mail: <a href="mailto:gops@pabianice.gmina.pl"> gops@pabianice.gmina.pl </a></p>
+							</div>
+							<div id="map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.7580077454013!2d19.333798315178083!3d51.66426687966126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a362be428f389%3A0xf16b8c19cd65c8a7!2sGminny%20O%C5%9Brodek%20Pomocy%20Spo%C5%82ecznej%20w%20Gminie%20Pabianice!5e0!3m2!1spl!2spl!4v1582196308070!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+							</div>
+						</div>
+						
+						<div class="copyright">
+							<p>&copy; 2020 Gminny Ośrodek Pomocy Społecznej w Pabianicach </p>
+							<p>Design <a target="_blank" rel="noopener noreferrer" href="http://moonrise.com.pl"> moonrise IT</a>. </p>
+						</div>
 					</footer>
 
 			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
+					
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>

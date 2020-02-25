@@ -171,12 +171,11 @@ article{
 	background-color: white;
 	border-radius: 1rem;
     border: solid 1rem white;;
-    box-shadow: 0 0 0px 7px #c1e690;
+
 }
 
 #bg{
 	position:fixed;
-	background-color : #ddd;
 	top : 0;
 	left : 0;
 	width : 100%;
@@ -196,9 +195,11 @@ article{
 #optionscontent{
 	margin-left:auto;
 	display: flex;
+	height:100%;
 }
 #options{
 	text-align:center;
+	display: flex;
 }
 
 #options span{
@@ -217,8 +218,8 @@ article{
 }
 
 #options ul{
-	display: flex;
-    width: fit-content;
+	display: inline-block;
+    padding: 0 10px;
 }
 #options li
 {
@@ -260,25 +261,36 @@ article{
 	color:white;
 }
 
+#contrast1,#contrast2,#contrast3{
+	font-size:1rem;
+}
 .fontsize{
-	 font-style: italic;
-	 font-weight: 700;
+	font-style: italic;
+	font-weight: 700;
     width: inherit;
     height: inherit;
     text-align: center;
 	display: table-cell;
-    vertical-align: middle;
+    
 }
+#contrast1,#contrast2,#contrast3{
+	vertical-align: middle;
+}
+#font{
 
+}
+#fonta,#fontaa,#fontaaa{
+	vertical-align: middle;
+}
 #fonta{
-	font-size:14px;
+	font-size:1rem;
 }
 
 #fontaa{
-	font-size:16px;
+	font-size:1.1rem;
 }
 #fontaaa{
-	font-size:18px;
+	font-size:1.2rem;
 }
 
 
@@ -301,9 +313,10 @@ article{
 }
 
 #navheader li {
-	border: solid 1px #c1e690;
     display: inline-block;
 	margin-top: 4px;
+	margin: 4px;
+	font-weight: 600;
 }
 
 #search{
@@ -366,8 +379,10 @@ nav li a {
 
 #searchnav{
 	float:right;	
+	padding-left: 1rem;
 }
 #menu{
+	width:100%;
 	margin-top:20px;
 	float:right;
 }
@@ -400,8 +415,8 @@ nav li a {
 }
 @media screen and (max-width: 700px) {
 	#main{
-		display:block;
-	}
+		display:flow-root;
+	}	
 	article:first-child{	
 		padding-top: 4rem;
 	}
@@ -435,22 +450,44 @@ nav li a {
 }
 
 #leftnav{
-	width:max-content;
-}
-
-#leftnav ul{
-	background-color: #f7f7f7;
-    border: solid 1px #8c8c8c;
-}
-#leftnav li{
-	border: solid 1px #8cc63f;
 	
 }
 
-#footer{
+
+
+#topfoot{
+	display:flex;
+	padding:1rem;
+}
+#infofoot{
 	text-align: center;
-	    letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+	padding-right:1rem;
+}
+
+
+#footer{
+	margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: -1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.copyright{
+	text-align: center;
+	letter-spacing: 0.2rem;
     font-size: 0.6rem;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+#map{
+	width: -webkit-fill-available;
+    width: -moz-available;
+    margin-right: 0px;
+}
+
+#footer iframe{
+	height:100%;
+	width:100%;
 }

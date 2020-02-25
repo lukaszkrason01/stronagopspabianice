@@ -12,8 +12,12 @@ section, summary, time, mark, audio, video,a,a:visited{
 	color:yellow;
 }
 
-#options, #wstazkamiddle, #leftnav li{
-	background-color:black;
+body{
+	background-color:#2d2d2d;
+}
+
+#wstazkamiddle, #leftnav li{
+	background-color:#1f191a;
 	
 }
 
@@ -26,8 +30,18 @@ section, summary, time, mark, audio, video,a,a:visited{
 	background-color: black	!important;
 }
 
+#navheader li {
+	border: solid 1px yellow;
+}
+
+#leftnav ul{
+    border: solid 1px yellow;
+}
+#leftnav li{
+	border: solid 1px yellow;
+}
 #wstazkaend{
-	background-color: yellow;
+	background-color: ##1f191a;
 }
 
 a:hover {
@@ -40,11 +54,11 @@ a:hover {
 }
 
 #wstazkaendleft{	
-    background: linear-gradient(45deg, rgba(0,0,0,0) 50%, #000 50%);
+    background: linear-gradient(45deg, rgba(0,0,0,0) 50%, #1f191a 50%);
 }
 
 #wstazkaendright{
-	background: linear-gradient(315deg, rgba(0,0,0,0) 50%, #000 50%);
+	background: linear-gradient(315deg, rgba(0,0,0,0) 50%, #1f191a 50%);
 }
 
 #search input[type=text] {
@@ -57,4 +71,8 @@ a:hover {
 
 #search button:hover {
   background: blue;
+}
+
+#footer{
+	background-color: #1f191a;
 }
