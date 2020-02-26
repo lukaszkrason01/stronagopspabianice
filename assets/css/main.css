@@ -191,8 +191,10 @@ article{
 }
 
 #showlinks{
+	display:flex;
 }
 #optionscontent{
+	margin-right:auto;
 	margin-left:auto;
 	display: flex;
 	height:100%;
@@ -205,7 +207,8 @@ article{
 #options span{
 	padding:0px 10px ;
 	font-weight: 600;
-    font-size: 108%;
+    font-size: 1rem;
+	margin:auto;
 }
 
 #language{
@@ -220,6 +223,7 @@ article{
 #options ul{
 	display: inline-block;
     padding: 0 10px;
+	vertical-align: bottom;
 }
 #options li
 {
@@ -423,7 +427,18 @@ nav li a {
 	#wrapper{
 		margin:auto;
 	}
-	
+	#header{
+		flex-wrap:wrap;
+	}
+	#optionscontent{
+		order:-1;
+	}
+	#language{
+		margin-left: auto;
+	}
+	#logo {
+		flex: 1 1 60%;
+	}
 }
 
 
